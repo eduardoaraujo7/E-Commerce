@@ -6,6 +6,8 @@
 
 <h1>Lista do Produto de Carrinho</h1>
 
+<br />
+<a class="nav-link text-dark" asp-area="" asp-controller="CompraUsuario" asp-action="FinalizarCompra">Comprar do carrinho</a>
 
 <table class="table">
     <thead>
@@ -28,46 +30,47 @@
             <th>
                 @Html.DisplayNameFor(model => model.QtdCompra)
             </th>
-            
-            
+
+
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
 
-            <td>
-                @{ 
-                    if (!string.IsNullOrWhiteSpace(item.Url))
-                    {
-                        <img width="80" height="80" src="@item.Url" />
+                <td>
+                    @{
+                        if (!string.IsNullOrWhiteSpace(item.Url))
+                        {
+                            <img width="80" height="80" src="@item.Url" />
+                        }
                     }
-                }
-            </td>
+                </td>
 
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Observacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Valor)
-            </td>
-            
-            <td>
-                @Html.DisplayFor(modelItem => item.QtdCompra)
-            </td>
-            
-            <td>
-                
-                <a asp-action="RemoverCarrinho" asp-route-id="@item.IdProdutoCarrinho">Remover</a>
-            </td>
-        </tr>
-}
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Observacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Valor)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.QtdCompra)
+                </td>
+
+                <td>
+
+                    <a asp-action="RemoverCarrinho" asp-route-id="@item.IdProdutoCarrinho">Remover</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

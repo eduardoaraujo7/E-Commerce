@@ -29,10 +29,12 @@
 
                         @if (User.Identity.IsAuthenticated)
                         {
-
-
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Produtos" asp-action="Index">Meus Produtos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="CompraUsuario" asp-action="MinhasCompras">Minhas Compras</a>
                         </li>
 
                         }

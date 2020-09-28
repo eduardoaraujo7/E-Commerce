@@ -1,0 +1,98 @@
+﻿@model Entities.Entities.CompraUsuario
+
+@{
+    ViewData["Title"] = "FinalizarCompra";
+}
+
+
+
+<div>
+    <h4>Dados da Compra</h4>
+    <br/>
+    <a class="nav-link text-dark" asp-area="" asp-controller="CompraUsuario" asp-action="ConfirmaCompra">Confirmar a Compra</a>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model => Model.EnderecoCompleto)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model => Model.EnderecoCompleto)
+        </dd>
+        <dt class="col-sm-2">
+            CEP
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model => Model.ApplicationUser.CEP)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model => Model.QunatidadeProdutos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model => Model.QunatidadeProdutos)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model => Model.ValorTotal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model => Model.ValorTotal)
+        </dd>
+    </dl>
+
+    <h4>Produtos Comprados</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>Imagem</th>
+                <th>
+                    Descrição
+                </th>
+                <th>
+                    Observação
+                </th>
+                <th>
+                    Valor
+                </th>
+                <th>
+                    Quantidade
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ListaProdutos)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(ModelItem => item.Nome)
+                    </td>
+                    <td>
+                        @{ 
+                            if (!string.IsNullOrWhiteSpace(item.Url))
+                            {
+                                <img width="80" height="80" src=@item.Url />
+                            }
+                        }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(ModelItem => item.Descricao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Observacao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Valor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.QtdCompra)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+

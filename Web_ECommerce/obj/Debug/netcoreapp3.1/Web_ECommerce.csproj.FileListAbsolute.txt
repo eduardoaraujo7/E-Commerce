@@ -169,9 +169,6 @@ C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\r
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.csproj.CoreCompileInputs.cache
-C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Details.cshtml.g.cs
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Create.cshtml.g.cs
@@ -220,3 +217,13 @@ C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\R
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\RemoverCarrinho.cshtml.g.cs
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Razor\Views\CompraUsuario\FinalizarCompra.cshtml.g.cs
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Razor\Views\CompraUsuario\MinhasCompras.cshtml.g.cs
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\PdfSharpCore.dll
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\SixLabors.Fonts.dll
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\de\PdfSharpCore.resources.dll
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.csproj.CoreCompileInputs.cache
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dufan\source\repos\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.MvcApplicationPartsAssemblyInfo.cache

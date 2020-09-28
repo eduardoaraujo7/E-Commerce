@@ -1,5 +1,7 @@
-﻿using Domain.Interfaces.InterfaceServices;
+﻿using Domain.Interfaces.InterfaceCompraUsuario;
+using Domain.Interfaces.InterfaceServices;
 using Entities.Entities;
+using Entities.Entities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,18 +11,19 @@ namespace Domain.Services
 {
     public class ServicoCompraUsuario : IServiceCompraUsuario
     {
-        public ServicoCompraUsuario()
+        private readonly ICompraUsuario _ICompraUsuario;
+        public ServicoCompraUsuario(ICompraUsuario ICompraUsuario)
         {
-
+            _ICompraUsuario = ICompraUsuario;
         }
-        public Task<CompraUsuario> CarrinhoCompras(string userId)
+        public async Task<CompraUsuario> CarrinhoCompras(string userId)
         {
-            throw new NotImplementedException();
+            return await _ICompraUsuario.ProdutosCompradosPorEstado(userId, EnumEstadoCompra.Produto_Carrinho);
         }
 
-        public Task<CompraUsuario> ProdutosComprados(string userId)
+        public async Task<CompraUsuario> ProdutosComprados(string userId)
         {
-            throw new NotImplementedException();
+            return await _ICompraUsuario.ProdutosCompradosPorEstado(userId, EnumEstadoCompra.Produto_Comprando);
         }
     }
 }

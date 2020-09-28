@@ -8,5 +8,5 @@ C:\Users\dufan\source\repos\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entiti
 C:\Users\dufan\source\repos\EcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
 C:\Users\dufan\source\repos\EcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
 C:\Users\dufan\source\repos\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
-C:\Users\dufan\source\repos\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
 C:\Users\dufan\source\repos\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\dufan\source\repos\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache

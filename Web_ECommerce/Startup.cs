@@ -57,6 +57,7 @@ namespace Web_ECommerce
 
             //Serviço Dominio
             services.AddSingleton<IServiceProduct, ServiceProduct>();
+            services.AddSingleton<IServiceCompraUsuario, ServicoCompraUsuario>();
 
         }
 
